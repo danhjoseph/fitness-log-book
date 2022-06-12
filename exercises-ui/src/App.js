@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <header className="Header">
-          <h1>Workout Log</h1>
+          <h1>Fitness Log Book</h1>
           <p>Stay Up to Date on Your Fitness Goals!</p>
         </header>
         <Navigation></Navigation>
