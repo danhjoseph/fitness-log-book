@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+    font-family: Jetbrains, Arial, Helvetica, sans-serif;
+    background-color: #0092D0;
+    padding: 10em;
+    height: 100vh;
+}
+
+@font-face {
+  font-family: 'JetBrains';
+  src: local('JetBrains'), url(./fonts/JetBrainsMono-Regular.woff2) format('woff2');
+}
+
+.Header {
+  background-color: #0092D0;
+  min-height: 40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FDBE43;
+} 
+
+h1 {
+  font-size: 3em;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+h2 {
+  margin-top: 1em;
+  font-size: 2em;
+  color: #FDBE43;
+}
+
+p {
+  font-size: 2em;
+}
+
+nav a {
+  margin: 0 20px;
+  padding: 1%;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FDBE43;
+  background-color: #0092D0;
+  border-color: #FDBE43;;
+  border-style: solid;
+  border-width: .1em;
+  border-radius: 10px;
+  font-size: 2em;
+}
+
+nav a:hover {
+  color:#FF7500
+}
+.Add {
+  margin: 30px;
+  font-size: .65em;
+  color: #FDBE43;
+}
+
+.Edit {
+  margin: 30px;
+  font-size: .65em;
+  color: #FDBE43;
+}
+
+
+.Footer {
+  background-color: #0092D0;
+  color: #FDBE43;
+  font-size: .5em;
+}
+
+.Link {
+  color: #FDBE43;
+}
+
+.Button {
+  font-size: 19px;
+  padding: 2px 2px 2px 2px;
+}
+
+.Button:hover {
+  color: #FF7500;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 2px solid #FDBE43;
+}
+
+tr th {
+  margin: 0 auto;
+  padding: 0 10px;
+  border: 2px solid #FDBE43;
+  background-color: #FDBE43;
+  color: #0092D0;
+}
+
+tr td {
+  border: 2px solid #FDBE43;
+  padding: 4.5px;
+  color: #FDBE43;
+  font-weight: bold;
+  text-shadow:
+        0.01em 0 black,
+        0 0.01em black,
+        -0.01em 0 black,
+        0 -0.01em black;
+
+}
+
+input {
+  font-family: Jetbrains, Arial, Helvetica, sans-serif;
+}
+
+button {
+  font-family: Jetbrains, Arial, Helvetica, sans-serif;
+}
+
+select {
+  font-family: Jetbrains, Arial, Helvetica, sans-serif;
+}
