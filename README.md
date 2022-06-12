@@ -1,6 +1,8 @@
 # fitness log book
 
-A log book to track your exercise routine.
+A log book to track your exercise routine. Add, Edit, and Delete any weight based exercise.
+
+![fitness log book Demo](demo/fitness-log-book-demo.gif)
 
 ## Built With
 
